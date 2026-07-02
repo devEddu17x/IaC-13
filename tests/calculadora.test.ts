@@ -1,5 +1,4 @@
-import { ICalculadora } from "../src";
-import { Calculadora } from "../src/calculadora";
+import { ICalculadora, Calculadora } from "../src/index";
 
 describe("Calculadora", () => {
   const calculadora: ICalculadora = new Calculadora();
