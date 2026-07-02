@@ -1,2 +1,2 @@
 export { Calculadora } from "./calculadora";
-export type { ICalculadora as CalculadoraInterface } from "./calculadora.interface";
+export type { ICalculadora } from "./calculadora.interface";

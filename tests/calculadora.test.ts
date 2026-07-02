@@ -1,7 +1,8 @@
+import { ICalculadora } from "../src";
 import { Calculadora } from "../src/calculadora";
 
 describe("Calculadora", () => {
-  const calculadora = new Calculadora();
+  const calculadora: ICalculadora = new Calculadora();
 
   it("suma 1 + 1 = 2", () => {
     expect(calculadora.suma(1, 1)).toBe(2);
